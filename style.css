@@ -1,0 +1,83 @@
+head{
+    border: 0%;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    margin: 0%;
+    border: 0%;
+    border: 0%;
+    padding: 0%;
+    margin: 0%;    
+    width:100%;
+    height: 100%;
+    display: flex;
+    
+}
+.image{
+    position: relative;
+    border: 0%;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.text{   
+    text-align: center;
+    padding: 0%;
+    -webkit-text-stroke-width: 0.01vh;
+    -webkit-text-stroke-color: black;  
+    position:absolute;
+    font-weight: bolder;; 
+    font-size:5vh;
+    color: burlywood;
+    width: 100%;
+    margin-top: 10%;
+}
+.main{
+   -webkit-text-stroke-width: 0.1vh;
+    -webkit-text-stroke-color: black;  
+    
+}
+#Add,#Reset,#sbtn{
+    padding: 3vh;
+    border-radius: 2vh;
+    border-style: solid;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    
+}
+#Add{
+    background-color: rgb(18, 109, 139);
+    margin-right: 1.5%;
+}
+#Add:hover{
+    box-shadow: 0vh 0vh 3vh royalblue;
+}
+
+#Reset{
+    
+    background-color: darkred;
+}
+#Reset:hover{
+    box-shadow: 0vh 0vh 2vh red;
+}
+#sbtn{
+    background-color: green;
+    margin-top: 1%;
+    width: 15%;
+}
+#sbtn:hover{
+    transform: scale(1.1);
+  box-shadow: 0vh 0vh 3vh greenyellow;
+}
+button:hover{
+    -webkit-text-stroke-width: 0.05vh;
+    -webkit-text-stroke-color: black;
+    transform: scale(1.1);
+}
+#memo,#star{
+    display:inline
+}
